@@ -56,11 +56,12 @@
       }
 
       var buildUrl = "Build";
-      var loaderUrl = buildUrl + "/WebGl.loader.js";
+      var loaderUrl = buildUrl + "/Webgl.loader.js";
       var config = {
-        dataUrl: buildUrl + "/WebGl.data.br",
-        frameworkUrl: buildUrl + "/WebGl.framework.js.br",
-        codeUrl: buildUrl + "/WebGl.wasm.br",
+        dataUrl: buildUrl + "/Webgl.data.unityweb",
+        frameworkUrl: buildUrl + "/Webgl.framework.js.unityweb",
+        codeUrl: buildUrl + "/Webgl.wasm.unityweb",
+        symbolsUrl: buildUrl + "/Webgl.symbols.json.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "SS",
         productName: "MemoryTest",
